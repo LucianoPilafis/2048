@@ -1,0 +1,1 @@
+/implement specs/issue-1-adw-051a26d5-sdlc_planner-fix-tile-size-stability.md
