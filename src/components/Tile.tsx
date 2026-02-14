@@ -37,8 +37,8 @@ export const Tile: React.FC<TileProps> = ({ value }) => {
         fontSize: value! > 1024 ? '30px' : '40px',
         fontWeight: 'bold',
         borderRadius: '3px',
-        width: '100%',
-        height: '100%',
+        width: '75px',
+        height: '75px',
         transition: 'background-color 0.15s ease-in-out, color 0.15s ease-in-out'
       }}
     >

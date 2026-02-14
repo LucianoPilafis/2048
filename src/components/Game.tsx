@@ -68,6 +68,7 @@ export const Game: React.FC = () => {
         style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(4, 75px)',
+          gridTemplateRows: 'repeat(4, 75px)',
           gap: '10px',
           backgroundColor: '#bbada0',
           padding: '10px',
