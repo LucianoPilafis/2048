@@ -1,0 +1,34 @@
+[
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
+  },
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
+  },
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
+  },
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
+  }
+]

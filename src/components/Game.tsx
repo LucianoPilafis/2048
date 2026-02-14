@@ -67,13 +67,16 @@ export const Game: React.FC = () => {
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(4, 1fr)',
+          gridTemplateColumns: 'repeat(4, 75px)',
           gap: '10px',
           backgroundColor: '#bbada0',
           padding: '10px',
           borderRadius: '3px',
-          width: '340px',
-          height: '340px'
+          width: 'fit-content',
+          height: 'fit-content',
+          maxWidth: '100%',
+          boxSizing: 'border-box' as const,
+          overflow: 'hidden'
         }}
       >
         {state.grid.map((row, i) =>

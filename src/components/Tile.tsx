@@ -39,7 +39,7 @@ export const Tile: React.FC<TileProps> = ({ value }) => {
         borderRadius: '3px',
         width: '100%',
         height: '100%',
-        transition: 'all 0.15s ease-in-out'
+        transition: 'background-color 0.15s ease-in-out, color 0.15s ease-in-out'
       }}
     >
       {value}

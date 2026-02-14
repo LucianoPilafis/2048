@@ -1,0 +1,41 @@
+[
+  {
+    "session_id": "03c41517-1aa5-4538-bd52-1fe92c8c740a",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/03c41517-1aa5-4538-bd52-1fe92c8c740a.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git checkout main",
+      "description": "Switch to main branch"
+    },
+    "tool_use_id": "toolu_013yEjkzhEhWJoushmAg5coK"
+  },
+  {
+    "session_id": "03c41517-1aa5-4538-bd52-1fe92c8c740a",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/03c41517-1aa5-4538-bd52-1fe92c8c740a.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git pull",
+      "description": "Pull latest changes from main"
+    },
+    "tool_use_id": "toolu_011AFEiDHpcMMbR1jTsQHQRi"
+  },
+  {
+    "session_id": "03c41517-1aa5-4538-bd52-1fe92c8c740a",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/03c41517-1aa5-4538-bd52-1fe92c8c740a.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git checkout -b bug-issue-1-adw-051a26d5-fix-tile-size-stability",
+      "description": "Create and switch to new branch"
+    },
+    "tool_use_id": "toolu_01XqRRbaNdCKZKMGLYp3t2eV"
+  }
+]

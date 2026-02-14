@@ -1,0 +1,10 @@
+[
+  {
+    "session_id": "a0a81b4f-f6c5-4caa-a2c5-177929f74944",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/a0a81b4f-f6c5-4caa-a2c5-177929f74944.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
+  }
+]

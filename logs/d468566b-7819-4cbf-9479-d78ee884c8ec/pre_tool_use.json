@@ -1,0 +1,62 @@
+[
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/home/luciano/agentic/.gitignore"
+    },
+    "tool_use_id": "toolu_01HTZ5e9iSSJnAzwAoDqz2fq"
+  },
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/home/luciano/agentic/package.json"
+    },
+    "tool_use_id": "toolu_017g9saMKxtnenFKLbKUYzgn"
+  },
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/home/luciano/agentic/vercel.json"
+    },
+    "tool_use_id": "toolu_01QpzMpz9gXsEGDj7Gi3WvqX"
+  },
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/home/luciano/agentic/adws/adw_plan_build_test.py"
+    },
+    "tool_use_id": "toolu_01EK5pMWVYwRRD9fF2sRK5tg"
+  },
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/home/luciano/agentic/adws/adw_plan.py"
+    },
+    "tool_use_id": "toolu_016fxDH3eDuETPPPVbE2xAkt"
+  }
+]
