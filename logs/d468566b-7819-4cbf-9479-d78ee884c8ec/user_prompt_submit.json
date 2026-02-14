@@ -30,5 +30,13 @@
     "permission_mode": "default",
     "hook_event_name": "UserPromptSubmit",
     "prompt": "I need to set claude_code_path and apikey in env for the adw_plan_build to work, help me with that"
+  },
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "UserPromptSubmit",
+    "prompt": "if I start an execution with adw workflow can I stop it? how?"
   }
 ]
