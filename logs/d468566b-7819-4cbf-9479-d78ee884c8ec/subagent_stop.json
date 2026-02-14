@@ -1,0 +1,46 @@
+[
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "SubagentStop",
+    "stop_hook_active": false,
+    "agent_id": "a4b5c65",
+    "agent_transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec/subagents/agent-a4b5c65.jsonl",
+    "agent_type": ""
+  },
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "SubagentStop",
+    "stop_hook_active": false,
+    "agent_id": "ae1f9d4",
+    "agent_transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec/subagents/agent-ae1f9d4.jsonl",
+    "agent_type": ""
+  },
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "SubagentStop",
+    "stop_hook_active": false,
+    "agent_id": "acae815",
+    "agent_transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec/subagents/agent-acae815.jsonl",
+    "agent_type": ""
+  },
+  {
+    "session_id": "d468566b-7819-4cbf-9479-d78ee884c8ec",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "SubagentStop",
+    "stop_hook_active": false,
+    "agent_id": "a5b5502",
+    "agent_transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/d468566b-7819-4cbf-9479-d78ee884c8ec/subagents/agent-a5b5502.jsonl",
+    "agent_type": ""
+  }
+]
