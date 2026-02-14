@@ -22,7 +22,7 @@ export const DEFAULT_PALETTE_ID: PaletteId = 'classic'
 export const PALETTES: Record<PaletteId, Palette> = {
   classic: {
     name: 'Classic',
-    background: '#faf8f3',
+    background: '#FAF8EF',
     board: '#bbada0',
     emptyCell: '#cdc1b4',
     textDark: '#776e65',
