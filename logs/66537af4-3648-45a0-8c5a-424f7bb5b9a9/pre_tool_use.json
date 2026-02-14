@@ -1,0 +1,93 @@
+[
+  {
+    "session_id": "66537af4-3648-45a0-8c5a-424f7bb5b9a9",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/66537af4-3648-45a0-8c5a-424f7bb5b9a9.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git checkout main",
+      "description": "Switch to main branch"
+    },
+    "tool_use_id": "toolu_01Li2xnWeauGK1HYSdmpmsmw"
+  },
+  {
+    "session_id": "66537af4-3648-45a0-8c5a-424f7bb5b9a9",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/66537af4-3648-45a0-8c5a-424f7bb5b9a9.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git pull",
+      "description": "Pull latest changes from main"
+    },
+    "tool_use_id": "toolu_01K439tui2qT9RUvMkyG3fG9"
+  },
+  {
+    "session_id": "66537af4-3648-45a0-8c5a-424f7bb5b9a9",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/66537af4-3648-45a0-8c5a-424f7bb5b9a9.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git stash",
+      "description": "Stash local changes"
+    },
+    "tool_use_id": "toolu_014gxHYhLDLVvnjZfPrbnKrE"
+  },
+  {
+    "session_id": "66537af4-3648-45a0-8c5a-424f7bb5b9a9",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/66537af4-3648-45a0-8c5a-424f7bb5b9a9.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git pull",
+      "description": "Pull latest changes from main"
+    },
+    "tool_use_id": "toolu_013rcS8XVJeUKLbhTM5Q1bz7"
+  },
+  {
+    "session_id": "66537af4-3648-45a0-8c5a-424f7bb5b9a9",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/66537af4-3648-45a0-8c5a-424f7bb5b9a9.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git status",
+      "description": "Check git status"
+    },
+    "tool_use_id": "toolu_01Hx45vackG2zc7PyecskG5z"
+  },
+  {
+    "session_id": "66537af4-3648-45a0-8c5a-424f7bb5b9a9",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/66537af4-3648-45a0-8c5a-424f7bb5b9a9.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git restore .claude/hooks/utils/__pycache__/constants.cpython-312.pyc && git pull",
+      "description": "Restore pycache file and pull latest changes"
+    },
+    "tool_use_id": "toolu_01KjPsAUCQPtyYSvCNX8C8rz"
+  },
+  {
+    "session_id": "66537af4-3648-45a0-8c5a-424f7bb5b9a9",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/66537af4-3648-45a0-8c5a-424f7bb5b9a9.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git checkout -b bug-issue-2-adw-6ffc5aae-fix-tile-size-stability",
+      "description": "Create and switch to new branch"
+    },
+    "tool_use_id": "toolu_01MHSByFUHDFVRKmA3giRpcV"
+  }
+]
