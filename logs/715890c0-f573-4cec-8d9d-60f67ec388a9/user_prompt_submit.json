@@ -1,0 +1,10 @@
+[
+  {
+    "session_id": "715890c0-f573-4cec-8d9d-60f67ec388a9",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/715890c0-f573-4cec-8d9d-60f67ec388a9.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "UserPromptSubmit",
+    "prompt": "Search in adw_plan_build.py what is taking so long with the execution, the proyect is in vercel maybe i dont need so much test"
+  }
+]

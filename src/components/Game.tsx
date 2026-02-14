@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { initializeGame, move, GameState } from '../game/logic'
 import { Tile } from './Tile'
+import { PaletteSelector } from './PaletteSelector'
+import { useTheme } from '../themes/ThemeContext'
 
 export const Game: React.FC = () => {
   const [state, setState] = useState<GameState>(initializeGame)
+  const { palette } = useTheme()
 
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
@@ -35,16 +38,18 @@ export const Game: React.FC = () => {
         alignItems: 'center',
         justifyContent: 'center',
         minHeight: '100vh',
-        backgroundColor: '#faf8f3',
+        backgroundColor: palette.background,
         padding: '20px'
       }}
     >
-      <h1 style={{ marginBottom: '20px', color: '#776e65' }}>2048</h1>
+      <h1 style={{ marginBottom: '20px', color: palette.textDark }}>2048</h1>
+
+      <PaletteSelector />
 
       <div style={{ marginBottom: '20px', display: 'flex', gap: '40px', alignItems: 'center' }}>
         <div>
-          <p style={{ fontSize: '14px', color: '#9f8f7f', margin: 0 }}>Score</p>
-          <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#776e65', margin: '5px 0 0 0' }}>
+          <p style={{ fontSize: '14px', color: palette.scoreLabel, margin: 0 }}>Score</p>
+          <p style={{ fontSize: '24px', fontWeight: 'bold', color: palette.textDark, margin: '5px 0 0 0' }}>
             {state.score}
           </p>
         </div>
@@ -52,8 +57,8 @@ export const Game: React.FC = () => {
           onClick={handleNewGame}
           style={{
             padding: '10px 20px',
-            backgroundColor: '#8f7a66',
-            color: '#f9f6f2',
+            backgroundColor: palette.buttonBg,
+            color: palette.buttonText,
             border: 'none',
             borderRadius: '3px',
             fontSize: '16px',
@@ -70,7 +75,7 @@ export const Game: React.FC = () => {
           gridTemplateColumns: 'repeat(4, 75px)',
           gridTemplateRows: 'repeat(4, 75px)',
           gap: '10px',
-          backgroundColor: '#bbada0',
+          backgroundColor: palette.board,
           padding: '10px',
           borderRadius: '3px',
           width: 'fit-content',
@@ -92,8 +97,8 @@ export const Game: React.FC = () => {
           style={{
             marginTop: '20px',
             padding: '20px',
-            backgroundColor: '#edc22e',
-            color: '#776e65',
+            backgroundColor: palette.winBg,
+            color: palette.winText,
             borderRadius: '3px',
             fontSize: '18px',
             fontWeight: 'bold'
@@ -108,8 +113,8 @@ export const Game: React.FC = () => {
           style={{
             marginTop: '20px',
             padding: '20px',
-            backgroundColor: '#f67c5f',
-            color: '#f9f6f2',
+            backgroundColor: palette.gameOverBg,
+            color: palette.gameOverText,
             borderRadius: '3px',
             fontSize: '18px',
             fontWeight: 'bold'
@@ -119,7 +124,7 @@ export const Game: React.FC = () => {
         </div>
       )}
 
-      <div style={{ marginTop: '40px', textAlign: 'center', color: '#9f8f7f', fontSize: '14px' }}>
+      <div style={{ marginTop: '40px', textAlign: 'center', color: palette.scoreLabel, fontSize: '14px' }}>
         <p>Use arrow keys to move tiles</p>
         <p>When two tiles with the same number touch, they merge!</p>
       </div>

@@ -1,0 +1,41 @@
+[
+  {
+    "session_id": "3b067a17-21c5-41ed-b85a-e967f7e67816",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/3b067a17-21c5-41ed-b85a-e967f7e67816.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git diff HEAD",
+      "description": "Show all changes to understand what was modified"
+    },
+    "tool_use_id": "toolu_01HYEG5ZBcfV6CM3UNJLPNYX"
+  },
+  {
+    "session_id": "3b067a17-21c5-41ed-b85a-e967f7e67816",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/3b067a17-21c5-41ed-b85a-e967f7e67816.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git status",
+      "description": "Check git status for untracked files"
+    },
+    "tool_use_id": "toolu_014zYzwgLshARLtdwX9fqWfM"
+  },
+  {
+    "session_id": "3b067a17-21c5-41ed-b85a-e967f7e67816",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/3b067a17-21c5-41ed-b85a-e967f7e67816.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git add -A",
+      "description": "Stage all changes for commit"
+    },
+    "tool_use_id": "toolu_015m6BaXNVopuj9dxq2M8X4p"
+  }
+]

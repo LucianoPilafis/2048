@@ -1,0 +1,13 @@
+[
+  {
+    "session_id": "715890c0-f573-4cec-8d9d-60f67ec388a9",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/715890c0-f573-4cec-8d9d-60f67ec388a9.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "SubagentStop",
+    "stop_hook_active": false,
+    "agent_id": "a788b9a",
+    "agent_transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/715890c0-f573-4cec-8d9d-60f67ec388a9/subagents/agent-a788b9a.jsonl",
+    "agent_type": ""
+  }
+]

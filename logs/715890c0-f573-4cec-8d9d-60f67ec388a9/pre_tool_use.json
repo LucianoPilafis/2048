@@ -1,0 +1,50 @@
+[
+  {
+    "session_id": "715890c0-f573-4cec-8d9d-60f67ec388a9",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/715890c0-f573-4cec-8d9d-60f67ec388a9.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Glob",
+    "tool_input": {
+      "pattern": "**/adw_plan_build*.py"
+    },
+    "tool_use_id": "toolu_01UcRCNGREbHS9xMzuS7uRcM"
+  },
+  {
+    "session_id": "715890c0-f573-4cec-8d9d-60f67ec388a9",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/715890c0-f573-4cec-8d9d-60f67ec388a9.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/home/luciano/agentic/adws/adw_plan_build.py"
+    },
+    "tool_use_id": "toolu_01XEAFay88ANEPHubR6gezSX"
+  },
+  {
+    "session_id": "715890c0-f573-4cec-8d9d-60f67ec388a9",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/715890c0-f573-4cec-8d9d-60f67ec388a9.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/home/luciano/agentic/adws/adw_plan_build_test.py"
+    },
+    "tool_use_id": "toolu_012FMsFaYjmbAdvHcNuN38eg"
+  },
+  {
+    "session_id": "715890c0-f573-4cec-8d9d-60f67ec388a9",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/715890c0-f573-4cec-8d9d-60f67ec388a9.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "default",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/home/luciano/agentic/adws/adw_test.py"
+    },
+    "tool_use_id": "toolu_01PrGTYNF2iLAAueuETnndoe"
+  }
+]

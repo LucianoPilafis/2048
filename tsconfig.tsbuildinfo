@@ -1,1 +1,1 @@
-{"root":["./src/App.tsx","./src/main.tsx","./src/components/Game.tsx","./src/components/Tile.tsx","./src/game/logic.ts"],"version":"5.9.3"}
+{"root":["./src/App.tsx","./src/main.tsx","./src/components/Game.tsx","./src/components/PaletteSelector.tsx","./src/components/Tile.tsx","./src/game/logic.ts","./src/themes/ThemeContext.tsx","./src/themes/palettes.ts"],"version":"5.9.3"}
