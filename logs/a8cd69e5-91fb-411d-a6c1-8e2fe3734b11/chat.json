@@ -1,0 +1,8 @@
+[
+  {
+    "type": "queue-operation",
+    "operation": "dequeue",
+    "timestamp": "2026-02-14T14:58:23.412Z",
+    "sessionId": "a8cd69e5-91fb-411d-a6c1-8e2fe3734b11"
+  }
+]

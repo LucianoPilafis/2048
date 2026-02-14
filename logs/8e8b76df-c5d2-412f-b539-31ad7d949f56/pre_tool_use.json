@@ -1,0 +1,41 @@
+[
+  {
+    "session_id": "8e8b76df-c5d2-412f-b539-31ad7d949f56",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/8e8b76df-c5d2-412f-b539-31ad7d949f56.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git checkout main",
+      "description": "Switch to main branch"
+    },
+    "tool_use_id": "toolu_0138J5mKMHZAx4Zq5nJW7Qxp"
+  },
+  {
+    "session_id": "8e8b76df-c5d2-412f-b539-31ad7d949f56",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/8e8b76df-c5d2-412f-b539-31ad7d949f56.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git pull",
+      "description": "Pull latest changes from main"
+    },
+    "tool_use_id": "toolu_01LNdk27m75xvcNnWKFMWkg6"
+  },
+  {
+    "session_id": "8e8b76df-c5d2-412f-b539-31ad7d949f56",
+    "transcript_path": "/home/luciano/.claude/projects/-home-luciano-agentic/8e8b76df-c5d2-412f-b539-31ad7d949f56.jsonl",
+    "cwd": "/home/luciano/agentic",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git checkout -b feature-issue-6-adw-skip-e2e-add-color-palette-themes",
+      "description": "Create and switch to new feature branch"
+    },
+    "tool_use_id": "toolu_018q7rWEMTQXewRczQQWfHHB"
+  }
+]
